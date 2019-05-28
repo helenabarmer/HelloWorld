@@ -1,13 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
+
 body{
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
 
-.flex-container{
+.footer{
     display: flex;
     justify-content: center;
 }
 
-.flex-container > div {
+.footer > div {
     width: 100px;
     margin: auto;
     text-align: center;
@@ -19,10 +24,15 @@ body{
 .header{
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
+    background: #f01381;
     color: white;
     font-size: 25px;
+    margin: auto;
 }
+
+.header h1 {
+    font-size: 40px;
+  }
 
 #container2{
     margin: auto;
@@ -71,8 +81,6 @@ footer{
       h1{
       font-size: 200%;
     }
-  }
-
-
+}
   
 
